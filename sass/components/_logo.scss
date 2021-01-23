@@ -1,0 +1,17 @@
+
+.logo {
+  margin-right: 93px;
+  font-family: var(--logo-font);
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: #000000;
+}
+.logo-accent-color {
+  color: var(--accent-color);
+}
+.logo:focus{
+  outline: none;
+}
