@@ -914,6 +914,12 @@ img {
   text-align: center;
 }
 
+@media screen and (min-width: 1200px) {
+  .footer-logo {
+    text-align: left;
+  }
+}
+
 .footer-logo:focus {
   outline: none;
 }
@@ -927,6 +933,12 @@ img {
   color: #ffffff;
 }
 
+@media screen and (min-width: 1200px) {
+  .footer-contacts-address {
+    text-align: left;
+  }
+}
+
 .footer-contacts-link {
   display: block;
   margin-top: 9px;
@@ -938,6 +950,12 @@ img {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
   text-align: center;
+}
+
+@media screen and (min-width: 1200px) {
+  .footer-contacts-link {
+    text-align: left;
+  }
 }
 
 .footer-contacts-link:hover {
@@ -955,6 +973,7 @@ img {
 @media screen and (min-width: 1200px) {
   .footer-social {
     flex-wrap: nowrap;
+    justify-content: space-between;
   }
 }
 
@@ -976,8 +995,10 @@ img {
   }
 }
 
-.footer-social-container {
-  margin-bottom: 60px;
+@media screen and (max-width: 767px) {
+  .footer-social-container {
+    margin-bottom: 60px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -999,6 +1020,12 @@ img {
   margin: auto;
 }
 
+@media screen and (min-width: 1200px) {
+  .footer-social-list {
+    margin: 0;
+  }
+}
+
 .footer-link {
   background-color: #44454e;
 }
@@ -1018,6 +1045,12 @@ img {
   margin-bottom: 20px;
 }
 
+@media screen and (min-width: 1200px) {
+  .agitation {
+    text-align: left;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .footer-input-container {
     width: 100%;
@@ -1027,7 +1060,8 @@ img {
 
 @media screen and (min-width: 1200px) {
   .footer-input-container {
-    width: 50%;
+    display: flex;
+    margin-bottom: 0;
   }
 }
 
@@ -1051,6 +1085,8 @@ img {
 @media screen and (min-width: 1200px) {
   .footer-form-input {
     width: 358px;
+    margin-bottom: 0;
+    margin-right: 12px;
   }
 }
 
@@ -1096,5 +1132,18 @@ img {
 
 .footer-input-btn:focus {
   outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .wrapper {
+    margin: 0 auto;
+    width: 450px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .wrapper {
+    width: 48%;
+  }
 }
 /*# sourceMappingURL=main.css.map */
