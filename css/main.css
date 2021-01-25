@@ -160,11 +160,19 @@ img {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 40px;
+  margin-top: 60px;
 }
 
 @media screen and (min-width: 768px) {
   .portfolio-filter {
     justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .portfolio-filter {
+    justify-content: center;
+    margin-top: 94px;
   }
 }
 
@@ -463,6 +471,7 @@ img {
     display: block;
     border: none;
     background-color: inherit;
+    outline: none;
   }
   .mob-menu {
     position: absolute;
