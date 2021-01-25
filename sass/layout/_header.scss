@@ -76,6 +76,10 @@
 //   background-color: var(--accent-color);
 //   border-radius: 2px;
 // }
+
+.header {
+  padding: 10px 15px;
+}
 .mob-button{
   display: none;
 }
@@ -88,7 +92,10 @@
   }
   .mob-button{
     display: block;
+    background-color: transparent;
+    border: none;
   }
+
   .mob-menu{
     position: absolute;
     width: 100%;
