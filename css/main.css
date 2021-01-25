@@ -635,9 +635,6 @@ img {
 @media screen and (min-width: 769px) {
   .hero {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/optimized/hero/hero_desk-1x.jpg");
-    max-width: 1600px;
-    padding-top: 118px;
-    padding-bottom: 118px;
   }
 }
 
@@ -657,10 +654,17 @@ img {
   margin-bottom: 30px;
 }
 
+@media screen and (min-width: 768px) {
+  .hero-title {
+    align-items: center;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .hero-title {
     font-size: 44px;
     line-height: 1.36;
+    text-align: center;
   }
 }
 
