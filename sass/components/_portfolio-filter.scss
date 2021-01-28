@@ -1,14 +1,17 @@
 .portfolio-filter {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 40px;
-  margin-top: 60px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+
   @media screen and (min-width: 768px){
     justify-content: center;
+    padding-bottom: 30px;
   }
  @media screen and (min-width: 1200px){
     justify-content: center;
-margin-top: 94px;
+    padding-top: 94px;
+    padding-bottom: 50px;
 }
 }
 
@@ -32,10 +35,10 @@ margin-left: 8px;
 
 
 
-.portfolio-filter .button-portfolio-filter + .button-portfolio-filter {
-  @media screen and (min-width: 768px){
-  margin-left: 8px;}
-}
+// .portfolio-filter .button-portfolio-filter + .button-portfolio-filter {
+//   @media screen and (min-width: 768px){
+//   margin-left: 8px;}
+// }
 
 .portfolio-btn:hover,
 .portfolio-btn:focus {
