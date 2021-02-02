@@ -1032,7 +1032,7 @@ img {
   padding-left: 24px;
   padding-right: 24px;
   background: #FFFFFF;
-  max-width: 370px;
+  max-width: 100%;
   border-left: 1px solid #EEEEEE;
   border-right: 1px solid #EEEEEE;
   border-bottom: 1px solid #EEEEEE;
